@@ -1,5 +1,7 @@
 <?php
-      include("plantilla.php");
+        include('Libreria/motor.php');
+        verificarSesion();
+        include("plantilla.php");
 ?>
 <div class="row">
   <div class="col col-sm-6">

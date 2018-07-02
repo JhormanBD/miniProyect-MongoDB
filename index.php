@@ -1,4 +1,7 @@
 <?php
+
+      include('Libreria/motor.php');
+      verificarSesion();      
       include("plantilla.php");
 ?>
 

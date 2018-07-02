@@ -1,4 +1,6 @@
 <?php
+      include('Libreria/motor.php');
+      verificarSesion();   
       include("plantilla.php");
 ?>
 <form action="index.html" method="post">

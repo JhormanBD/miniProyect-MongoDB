@@ -21,7 +21,7 @@ class plantilla{
           </head>
           <body>
             <div id="divPagina" class= "container">
-
+              <?php if(usuarioActivo()): ?>
               <nav class="navbar navbar-default">
                       <div class="container-fluid">
                         <div class="navbar-header">
@@ -48,6 +48,7 @@ class plantilla{
                         </div><!--/.nav-collapse -->
                       </div><!--/.container-fluid -->
                     </nav>
+                  <?php endif; ?>
           <?php
         }
 
