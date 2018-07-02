@@ -20,7 +20,7 @@ class plantilla{
             <title>Proyecto de Base de Datos Avanzadas</title>
           </head>
           <body>
-            <div id="divPagina">
+            <div id="divPagina" class= "container">
 
               <nav class="navbar navbar-default">
                       <div class="container-fluid">
@@ -35,8 +35,9 @@ class plantilla{
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                           <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Vehiculos</a></li>
+                            <li class="active"><a href="index.php">Vehiculos</a></li>
                             <li><a href="marcas_modelos.php">Marcas / Modelos</a></li>
+                            <li><a href="usuarios.php">Usuarios</a></li>
 
 
                           </ul>
@@ -51,12 +52,13 @@ class plantilla{
         }
 
         function __destruct(){ ?>
-          <div>
-            <hr/>
-            Derechos reservados @2018
-          </div>
 
-          </div>
+
+
+            </div>
+            <div class="container">
+              <hr/>
+              Derechos reservados @2018
             </div>
           </body>
           </html>
